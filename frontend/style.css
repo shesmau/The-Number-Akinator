@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+    margin: 0; 
+    padding: 0;
+    background-color: black;
+    scroll-behavior: smooth; /*clicking navbar causes website to be scrolled smooth*/
+}
+/*########### MAIN GAME APP CODE ###############*/
+.headline h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center; /*aligns h1 text to the middle*/
+    margin-top: 100px;
+}
+.main-game{
+    background-color: lightblue;
+    width: -webkit-fit-content; /*will fit the content inside*/
+    margin: 40px 400px;
+    padding: 50px 120px;
+    text-align: center;
+
+}
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none; /*removes bullet points*/
+    text-align: center;
+    background-color: plum; /*changes colour of navbar*/
+    color: black;
+
+}
+nav li{
+    display: inline-block; /*causes navbar content to come in the middle*/ 
+    padding: 5px 30px;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none; /*removes the underline caused by hover*/
+    color: black;
+    padding:6px;
+    border-radius: 30px;
+}
+li a:hover{
+    background-color: azure;
+}
+.main-game p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-style{
+    font-family: 'Ubuntu', sans-serif;
+}
